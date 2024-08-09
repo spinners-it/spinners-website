@@ -9,6 +9,9 @@ export default {
       fontFamily: {
         sans: ['DM Sans', 'sans-serif'],
       },
+      colors: {
+        'graphite': 'rgb(49, 49, 49)',
+      },
     },
   },
   plugins: [],
