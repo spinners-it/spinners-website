@@ -11,6 +11,7 @@ export default {
       },
       colors: {
         'graphite': 'rgb(49, 49, 49)',
+        'lavander_gray': '#9EA3BA'
       },
     },
   },
