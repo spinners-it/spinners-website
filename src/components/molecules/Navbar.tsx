@@ -43,7 +43,7 @@ function Navbar() {
           ))}
         </div>
         <div className="hidden text-xl lg:flex lg:flex-1 lg:justify-end">
-          <TextButton text="Contattaci" to="#" dark={true} />
+          <TextButton text="Contattaci" to="mailto:spinnerstech@gmail.com" dark={true} />
         </div>
       </nav>
       <Dialog
@@ -74,7 +74,7 @@ function Navbar() {
                 ))}
               </div>
               <div className="text-2xl py-6">
-                <TextButton text="Contattaci" to="#" />
+                <TextButton text="Contattaci" to="mailto:spinnerstech@gmail.com" />
               </div>
             </div>
           </div>
