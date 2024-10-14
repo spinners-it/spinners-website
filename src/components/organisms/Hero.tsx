@@ -1,166 +1,43 @@
-import Card from "../atoms/Card";
-import Heading from "../atoms/Heading";
 
 function Hero() {
   return (
     <>
-      <div className="h-screen flex items-center justify-center">
-        <div className="flex flex-col text-center items-center max-w-2xl">
-          <Heading level="h1" className="text-7xl font-semibold text-graphite">
-            Tutto si può fare
-          </Heading>
-          <Heading
-            level="h2"
-            className="text-center max-w-md pt-8 text-[18px] text-graphite"
-          >
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt
-            harum voluptatum pariatur non ratione voluptatem sunt et libero.
-          </Heading>
-        </div>
-      </div>
+      <div className="h-screen">
+        <div className="bg-[url('/assets/bg-hero.avif')] bg-cover w-full h-full">
 
-      {/* SECTION */}
-      <div className="w-full flex flex-col items-center pt-[120px] pb-[120px]">
-        <div className="w-full max-w-5xl pb-10 flex items-center justify-center">
-          <div className="w-full flex justify-between">
-            <Heading
-              level="h3"
-              className="text-6xl font-semibold text-graphite max-w-[430px]"
+          <div className="relative isolate flex items-center justify-center px-6 pt-14 lg:px-8 h-full overflow-hidden">
+            <div
+              aria-hidden="true"
+              className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
             >
-              When people do work with us
-            </Heading>
-            <a className="font-medium mt-auto" href="#">
-              <button className="px-5 py-4 bg-graphite text-white rounded-2xl shadow-md hover:bg-opacity-70 transition-all">
-                Let's build something
-              </button>
-            </a>
-          </div>
-        </div>
-
-        {/* GRID */}
-        <div className="w-full max-w-5xl pt-10 grid grid-rows-2 grid-flow-col gap-10">
-          <Card
-            shadow
-            title="Creative Expertise"
-            content="Unique designs tailored to your brand, captivating users with innovative visuals."
-          />
-          <Card
-            title="SEO Optimization"
-            content="Unique designs tailored to your brand, captivating users with innovative visuals."
-          />
-          <Card
-            title="Responsive Designs"
-            content="Unique designs tailored to your brand, captivating users with innovative visuals."
-          />
-          <Card
-            title="Quick Turnaround"
-            content="Unique designs tailored to your brand, captivating users with innovative visuals."
-          />
-          <Card
-            title="Exceptional Support"
-            content="Unique designs tailored to your brand, captivating users with innovative visuals."
-          />
-          <Card
-            title="Custom Solutions"
-            content="Unique designs tailored to your brand, captivating users with innovative visuals."
-          />
-        </div>
-      </div>
-
-      {/* SECTION 2 */}
-      <div className="w-full flex flex-col items-center pt-20 pb-10">
-        <div className="w-full max-w-5xl pb-10 flex items-center justify-center">
-          <div className="w-full flex gap-32">
-            <Heading
-              level="h3"
-              className="flex-shrink-0 text-7xl font-semibold text-graphite"
+              <div
+                style={{
+                  clipPath:
+                    "polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)",
+                }}
+                className="relative left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#80e3ff] to-[#9089fc] opacity-30 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]"
+              />
+            </div>
+            <div className="mx-auto max-w-3xl py-32 sm:py-48 lg:py-56">
+              <div className="text-center">
+                <h1 className="text-6xl md:text-7xl lg:text-8xl font-bold tracking-tight text-white">
+                  Tutto si può fare.
+                </h1>
+              </div>
+            </div>
+            <div
+              aria-hidden="true"
+              className="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]"
             >
-              Our projects
-            </Heading>
-            <p className="flex-shrink max-w-xl ml-auto font-medium text-sm mt-auto text-graphite">
-              We offer services to help early-stage startups find their brand
-              voice and showcase a product worth buying. Everything is focused
-              on a successful launch.
-            </p>
-          </div>
-        </div>
-
-        {/* PROJECTS */}
-        <div className="w-full max-w-5xl pt-10 flex flex-col">
-          <div className="flex gap-11 pb-10 group">
-            <div className="flex flex-col flex-shrink-0">
-              <div className="m-auto">
-                <p className="text-sm text-graphite mb-2">2023</p>
-                <p className="text-[44px] text-lavander_gray leading-tight -indent-0.5">Olliviere</p>
-                <p className="text-[44px] text-graphite leading-10 w-5/6">How we furthered AI in tech.</p>
-              </div>
-              <div className="relative w-[116px] bg-blue-100">
-              <div className="absolute right-0 bottom-0 opacity-0 translate-x-10 group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-300">
-                <button className="py-3.5 px-6 rounded-xl text-sm bg-slate-200 text-slate-600 hover:bg-slate-50 transition-all duration-300">View case</button>
-              </div>
-              </div>
-            </div>
-            <div className="ml-auto rounded-lg">
-              <img className="h-[538px] object-cover rounded-3xl" src="./assets/ex1.avif" alt="..." />
+              <div
+                style={{
+                  clipPath:
+                    "polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)",
+                }}
+                className="relative left-[calc(50%+3rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 bg-gradient-to-tr from-[#80e3ff] to-[#9089fc] opacity-30 sm:left-[calc(50%+36rem)] sm:w-[72.1875rem]"
+              />
             </div>
           </div>
-
-          <div className="flex gap-11 pb-10 pt-10 group">
-            <div className="flex flex-col flex-shrink-0">
-              <div className="m-auto">
-                <p className="text-sm text-graphite mb-2">2023</p>
-                <p className="text-[44px] text-lavander_gray leading-tight -indent-0.5">Utopia</p>
-                <p className="text-[44px] text-graphite leading-10 w-5/6">How we furthered AI in tech.</p>
-              </div>
-              <div className="relative w-[116px] bg-blue-100">
-              <div className="absolute right-0 bottom-0 opacity-0 translate-x-10 group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-300">
-                <button className="py-3.5 px-6 rounded-xl text-sm bg-slate-200 text-slate-600 hover:bg-slate-50 transition-all duration-300">View case</button>
-              </div>
-              </div>
-            </div>
-            <div className="ml-auto rounded-lg">
-              <img className="h-[538px] object-cover rounded-3xl" src="./assets/ex2.avif" alt="..." />
-            </div>
-          </div>
-
-       
-          <div className="flex gap-11 pb-10 pt-10 group">
-            <div className="flex flex-col flex-shrink-0">
-              <div className="m-auto">
-                <p className="text-sm text-graphite mb-2">2023</p>
-                <p className="text-[44px] text-lavander_gray leading-tight -indent-0.5">Arper</p>
-                <p className="text-[44px] text-graphite leading-10 w-5/6">How we furthered AI in tech.</p>
-              </div>
-              <div className="relative w-[116px] bg-blue-100">
-              <div className="absolute right-0 bottom-0 opacity-0 translate-x-10 group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-300">
-                <button className="py-3.5 px-6 rounded-xl text-sm bg-slate-200 text-slate-600 hover:bg-slate-50 transition-all duration-300">View case</button>
-              </div>
-              </div>
-            </div>
-            <div className="ml-auto rounded-lg">
-              <img className="h-[538px] object-cover rounded-3xl" src="./assets/ex3.avif" alt="..." />
-            </div>
-          </div>
-
-         
-          <div className="flex gap-11 pb-10 pt-10 group">
-            <div className="flex flex-col flex-shrink-0">
-              <div className="m-auto">
-                <p className="text-sm text-graphite mb-2">2023</p>
-                <p className="text-[44px] text-lavander_gray leading-tight -indent-0.5">Jubilant</p>
-                <p className="text-[44px] text-graphite leading-10 w-5/6">How we furthered AI in tech.</p>
-              </div>
-              <div className="relative w-[116px] bg-blue-100">
-              <div className="absolute right-0 bottom-0 opacity-0 translate-x-10 group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-300">
-                <button className="py-3.5 px-6 rounded-xl text-sm bg-slate-200 text-slate-600 hover:bg-slate-50 transition-all duration-300">View case</button>
-              </div>
-              </div>
-            </div>
-            <div className="ml-auto rounded-lg">
-              <img className="h-[538px] object-cover rounded-3xl" src="./assets/ex1.avif" alt="..." />
-            </div>
-          </div>
-
         </div>
       </div>
     </>

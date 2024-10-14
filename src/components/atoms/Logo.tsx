@@ -1,7 +1,6 @@
 import spinnersLogo from '/assets/logo-spinners.png'
 
 function Logo() {
-
   return (
     <>
       <a href="#">

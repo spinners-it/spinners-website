@@ -3,6 +3,8 @@ interface CardProps {
     content: string;
     shadow?: boolean;
   }
+
+// NOT USED
 function Card(props: CardProps) {
   return (
     <>

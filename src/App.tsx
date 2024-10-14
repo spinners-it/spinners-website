@@ -1,12 +1,17 @@
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import "./App.css";
-import Hero from "./components/organisms/Hero";
-import Navbar from "./components/organisms/Navbar";
+import Home from './components/organisms/Home';
+import ProjectDetails from './components/organisms/ProjectDetails';
 
 function App() {
   return (
     <>
-    <Navbar />
-    <Hero />
+     <Router>
+      <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/details/:id" element={<ProjectDetails />} />
+      </Routes>
+    </Router>
     </>
   );
 }
