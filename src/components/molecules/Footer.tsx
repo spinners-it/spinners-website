@@ -41,51 +41,7 @@ function Footer() {
                 </li>
               </ul>
             </div>
-            <div className="grid grid-cols-4 gap-10">
-              <div className="col-span-2">
-                <h2 className="mb-6 text-sm font-semibold text-white uppercase">
-                  Dove ci troviamo
-                </h2>
-                <ul className="text-gray-300">
-                  <li className="mb-4">
-                    <a href="https://flowbite.com" className="hover:underline">
-                      Flowbite
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="https://tailwindcss.com/"
-                      className="hover:underline"
-                    >
-                      Tailwind CSS
-                    </a>
-                  </li>
-                </ul>
-              </div>
-              <div className="col-span-2">
-                <h2 className="mb-6 text-sm font-semibold text-white uppercase ">
-                  Contatti
-                </h2>
-                <ul className="text-gray-300">
-                  <li className="mb-4">
-                    <a
-                      href="https://github.com/themesberg/flowbite"
-                      className="hover:underline "
-                    >
-                      ??
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="https://discord.gg/4eeurUVvTy"
-                      className="hover:underline"
-                    >
-                       spinnerstech@gmail.com
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
+
           </div>
           <hr className="my-6 border-gray-400 sm:mx-aut lg:my-8" />
           <div className="sm:flex sm:items-center sm:justify-between">
