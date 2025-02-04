@@ -1,3 +1,10 @@
+# How to deploy the page
+1. npm run deploy
+
+If the above doesn't trigger the deploy, force it with the following:
+1. npm run build       
+2. npx gh-pages -d dist
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
