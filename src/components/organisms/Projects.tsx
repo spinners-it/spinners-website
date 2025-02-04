@@ -36,7 +36,7 @@ function Projects({ type }: ProjectsProps) {
         "Un'app mobile unica che consente agli utenti di scambiare competenze",
       description:
         "Ognuno può donare i propri servizi agli utenti dell’app e riceverne da altri, creando una comunità dinamica basata sul donare.",
-        src: [""],
+        src: ["./assets/dulala.png"],
         link: ""
     },
   ];
