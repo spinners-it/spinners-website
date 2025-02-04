@@ -8,7 +8,7 @@ export default defineConfig({
   build: {
     terserOptions: {
       compress: {
-        unsafe: true, // Reduce the use of `eval()`
+        unsafe: true,
       }
     }
   }
