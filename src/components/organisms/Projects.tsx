@@ -20,7 +20,7 @@ function Projects({ type }: ProjectsProps) {
       id: 2,
       year: "2023",
       name: "RentalPro",
-      title: "Un'azienda leader nel settore delle case vacanze.",
+      title: "Un'azienda leader nel settore degli affitti brevi.",
       description:
         "Abbiamo creato una piattaforma su misura che consente ai loro affiliati di gestire facilmente contratti e fatturazione per le proprietà gestite, semplificando l'amministrazione e migliorando l'efficienza operativa.",
         src: ["./assets/rentalpro.png", "./assets/rentalpro2.png"],
@@ -28,11 +28,11 @@ function Projects({ type }: ProjectsProps) {
     {
       id: 3,
       year: "2024",
-      name: "Disiu App",
+      name: "Dulalà App",
       title:
-        "Un'app mobile unica che abbiamo sviluppato insieme al team di Disiu App.",
+        "Un'app mobile unica che consente agli utenti di scambiare competenze",
       description:
-        "Questa app consente agli utenti di scambiare competenze: ognuno può donare servizi o competenze agli utenti dell’app e riceverne da altri, creando una comunità dinamica basata sul donare.",
+        "ognuno può donare i propri servizi agli utenti dell’app e riceverne da altri, creando una comunità dinamica basata sul donare.",
         src: ["./assets/rentalpro.png", "./assets/rentalpro2.png"],
     },
   ];

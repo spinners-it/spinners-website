@@ -26,7 +26,7 @@ function About() {
             <div className="lg:col-span-2 lg:grid lg:w-full">
               <div className="mt-4 flex items-center gap-x-6">
                 <a
-                  href="#"
+                  href="mailto:spinnerstech@gmail.com"
                   className="flex items-end gap-1.5 rounded-md bg-blue-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-blue-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2"
                 >
                   Contattaci <span aria-hidden="true">→</span>
