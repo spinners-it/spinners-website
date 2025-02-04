@@ -13,7 +13,7 @@ function About() {
                   Tutto si può fare
                 </h1>
                 <p className="mt-10 text-xl leading-8 text-gray-700">
-                  Benvenuti in Spinners, la software house che trasforma le
+                  Benvenuti in <b>Spinners</b>, la software house che trasforma le
                   vostre idee in soluzioni digitali su misura. Siamo
                   specializzati nello sviluppo di software personalizzati e app
                   mobile, creati per rispondere alle esigenze specifiche di ogni
@@ -29,7 +29,7 @@ function About() {
                   href="#"
                   className="flex items-end gap-1.5 rounded-md bg-blue-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-blue-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2"
                 >
-                  Contattaci ora <span aria-hidden="true">→</span>
+                  Contattaci <span aria-hidden="true">→</span>
                 </a>
               </div>
             </div>

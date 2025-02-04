@@ -10,7 +10,7 @@ function Mission() {
                 <p className="text-base font-semibold leading-7 text-blue-600">Mission</p>
                 <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-6xl">Il nostro obiettivo</h1>
                 <p className="mt-10 text-xl leading-8 text-gray-700">
-                In Spinners, la nostra missione è semplice: vogliamo rendere l'innovazione accessibile a tutte le aziende. Crediamo fermamente nel potere della digitalizzazione come strumento per migliorare il lavoro quotidiano, offrendo soluzioni software personalizzate che semplificano i processi e aumentano l'efficienza.
+                In <b>Spinners</b>, la nostra missione è semplice: vogliamo rendere l'innovazione accessibile a tutte le aziende. Crediamo fermamente nel potere della digitalizzazione come strumento per migliorare il lavoro quotidiano, offrendo soluzioni software personalizzate che semplificano i processi e aumentano l'efficienza.
                 </p>
             </div>
           </div>

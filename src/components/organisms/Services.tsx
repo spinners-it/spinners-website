@@ -13,7 +13,7 @@ export default function Services() {
               Soluzioni digitali su misura per il tuo business
             </h1>
             <p className="mt-10 text-xl leading-8 text-slate-400">
-              In Spinners, ci dedichiamo alla creazione di software e app mobile
+              In <b>Spinners</b>, ci dedichiamo alla creazione di software e app mobile
               progettati per ottimizzare i processi aziendali e migliorare
               l'efficienza operativa. Offriamo soluzioni personalizzate che si
               adattano perfettamente alle vostre esigenze, aiutandovi a crescere
@@ -61,7 +61,7 @@ export default function Services() {
                   href="#"
                   className="flex items-end gap-1.5 rounded-md bg-blue-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-blue-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2"
                 >
-                  Richiedi una consulenza gratuita <span aria-hidden="true">→</span>
+                  Contattaci per una consulenza gratuita <span aria-hidden="true">→</span>
                 </a>
               </div>
             </div>
