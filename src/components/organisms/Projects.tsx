@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { FaExternalLinkAlt } from "react-icons/fa";
 
 interface ProjectsProps {
   type: "projects" | "products"; 
@@ -15,6 +16,7 @@ function Projects({ type }: ProjectsProps) {
       description:
         "Abbiamo sviluppato con il team di Selectic la loro piattaforma software che permette alle aziende di testare i candidati per diverse posizioni di lavoro, fornendo dati e analytics dettagliati per facilitare il processo di selezione e assumere i migliori talenti.",
         src: ["./assets/selectic.png", "./assets/selectic.png"],
+        link: "https://www.selectic.tech/"
     },
     {
       id: 2,
@@ -24,6 +26,7 @@ function Projects({ type }: ProjectsProps) {
       description:
         "Abbiamo creato una piattaforma su misura che consente ai loro affiliati di gestire facilmente contratti e fatturazione per le proprietà gestite, semplificando l'amministrazione e migliorando l'efficienza operativa.",
         src: ["./assets/rentalpro.png", "./assets/rentalpro2.png"],
+        link: ""
     },
     {
       id: 3,
@@ -32,8 +35,9 @@ function Projects({ type }: ProjectsProps) {
       title:
         "Un'app mobile unica che consente agli utenti di scambiare competenze",
       description:
-        "ognuno può donare i propri servizi agli utenti dell’app e riceverne da altri, creando una comunità dinamica basata sul donare.",
-        src: ["./assets/rentalpro.png", "./assets/rentalpro2.png"],
+        "Ognuno può donare i propri servizi agli utenti dell’app e riceverne da altri, creando una comunità dinamica basata sul donare.",
+        src: [""],
+        link: ""
     },
   ];
 
@@ -45,7 +49,8 @@ function Projects({ type }: ProjectsProps) {
       title: "La piattaforma ideale per la gestione delle cartelle cliniche.",
       description:
         "Con Remedium, le strutture sanitarie possono gestire facilmente i dati dei pazienti, migliorare la sicurezza delle informazioni e ottimizzare i flussi di lavoro.",
-        src: ["./assets/selectic.png", "./assets/selectic.png"],
+        src: [""],
+        link: "https://federico-arona.github.io/smartmed/"
     },
     {
       id: 2,
@@ -55,6 +60,7 @@ function Projects({ type }: ProjectsProps) {
       description:
         "Progettato per migliorare la logistica, monitorare l'inventario in tempo reale e ridurre i costi operativi.",
         src: ["./assets/warehouse.png", "./assets/warehouse.png"],
+        link: "https://spinners-it.github.io/warehouse-landing/"
     },
   ];
 
@@ -64,20 +70,26 @@ function Projects({ type }: ProjectsProps) {
   return (
     <>
       {items.map((project, index) => (
-        <div key={project.id}
-        onMouseEnter={() => setHoveredProject(project.id)}
-        onMouseLeave={() => setHoveredProject(null)}
-        className={`flex flex-col gap-11 px-6 pb-10 group md:flex-row ${
-          index % 2 === 0 ? 'md:flex-row' : 'md:flex-row-reverse'
-        }`}
-         >
+        <div
+          key={project.id}
+          onMouseEnter={() => setHoveredProject(project.id)}
+          onMouseLeave={() => setHoveredProject(null)}
+          className={`flex flex-col gap-11 px-6 pb-10 group md:flex-row ${
+            index % 2 === 0 ? 'md:flex-row' : 'md:flex-row-reverse'
+          }`}
+        >
           <div className="flex flex-col flex-shrink-0">
             <div className="m-auto">
               <p className="text-sm font-bold text-white mb-2">
                 {project.year}
               </p>
-              <p className="text-[44px] font-semibold text-blue-600 leading-tight -indent-0.5">
-                {project.name}
+              <p className="text-[44px] font-semibold text-blue-600 leading-tight -indent-0.5 flex items-center gap-1">
+                <a href={project.link} target="_blank" rel="noopener noreferrer" className="hover:underline">
+                  {project.name}
+                </a>
+                <a href={project.link} target="_blank" rel="noopener noreferrer">
+                  <FaExternalLinkAlt className="w-4 h-4 text-gray-500 hover:text-gray-700 transition" />
+                </a>
               </p>
               <p className="text-[44px] text-white max-w-lg leading-10 mb-6">
                 {project.title}
@@ -88,7 +100,7 @@ function Projects({ type }: ProjectsProps) {
             </div>
           </div>
           <div className="ml-auto rounded-lg">
-          <img
+            <img
               className="h-[300px] md:h-[538px] object-contain rounded-2xl transition-all duration-500"
               src={
                 hoveredProject === project.id
