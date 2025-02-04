@@ -1,6 +1,5 @@
 import Heading from "../atoms/Heading";
 import Header from "../molecules/Header";
-import Clients from "./Clients";
 import Hero from "./Hero";
 import Projects from "./Projects";
 import About from "./About";
