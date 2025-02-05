@@ -81,7 +81,6 @@ function Projects({ type }: ProjectsProps) {
             {/* Left Section: Project Details */}
             <div className="flex flex-col flex-shrink-0">
               <div className="m-auto">
-                <p className="text-sm font-bold text-white mb-2">{project.year}</p>
                 <p className="text-[44px] font-semibold text-blue-600 leading-tight -indent-0.5 flex items-center gap-1">
                   <a
                     href={project.link}
