@@ -26,7 +26,7 @@ function Projects({ type }: ProjectsProps) {
       description:
         "Abbiamo creato una piattaforma su misura che consente ai loro affiliati di gestire facilmente contratti e fatturazione per le proprietà gestite, semplificando l'amministrazione e migliorando l'efficienza operativa.",
         src: ["./assets/logo-rentalpro.png"],
-        link: ""
+        link: "https://www.rentalprogroup.com/"
     },
     {
       id: 3,
