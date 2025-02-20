@@ -15,9 +15,9 @@ function Footer() {
           />
         </div>
         <div className="mx-auto text-white">
-          <div className="md:flex md:justify-between py-4">
+          <div className="md:flex justify-center py-4">
             <div className="mb-6 md:mb-0">
-              <a href="#" className="flex items-center">
+              <a href="#" className="flex items-center justify-center">
                 <img
                   src="./assets/logo-spinners.png"
                   className="mr-3 h-8"
@@ -27,7 +27,7 @@ function Footer() {
                   Spinners
                 </span>
               </a>
-              <ul className="text-gray-300 flex gap-1 mt-4">
+              <ul className="text-gray-300 flex gap-1 mt-4 justify-center">
                 <li className="mb-4">
                   <a href="#" className="hover:underline">
                     Privacy Policy
@@ -44,7 +44,7 @@ function Footer() {
 
           </div>
           <hr className="my-6 border-gray-400 sm:mx-aut lg:my-8" />
-          <div className="sm:flex sm:items-center sm:justify-between">
+          <div className="sm:flex sm:items-center sm:justify-center">
             <span className="text-sm text-gray-400 sm:text-center">
               © 2024{" "}
               <a href="https://flowbite.com" className="hover:underline">
@@ -52,6 +52,7 @@ function Footer() {
               </a>
               . All Rights Reserved.
             </span>
+            {/*
             <div className="flex mt-4 space-x-6 sm:justify-center sm:mt-0">
               <a href="#" className="text-gray-400 hover:text-white">
                 <svg
@@ -119,7 +120,7 @@ function Footer() {
                   />
                 </svg>
               </a>
-            </div>
+            </div>*/}
           </div>
         </div>
       </footer>

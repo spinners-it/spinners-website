@@ -30,7 +30,7 @@ function Contacts() {
       {/* GRID */}
       <div className="w-full px-6 max-w-5xl">
         <section className="bg-white">
-          <div className="py-8 lg:py-16 mx-auto max-w-screen-xl px-4">
+          {/*<div className="py-8 lg:py-16 mx-auto max-w-screen-xl px-4">
             <div className="grid grid-cols-2 gap-8 text-gray-500 sm:gap-12 md:grid-cols-3 lg:grid-cols-4">
               <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="flex justify-center items-center">
                 <FaFacebook className="h-9 w-9 text-gray-600 hover:text-gray-900" />
@@ -45,7 +45,7 @@ function Contacts() {
                 <FaInstagram className="h-9 w-9 text-gray-600 hover:text-gray-900" />
               </a>
             </div>
-          </div>
+          </div>*/}
 
 
           <div className="mt-6 flex items-center gap-x-6 justify-center">
