@@ -1,4 +1,4 @@
-import { FaFacebook, FaTwitter, FaLinkedin, FaInstagram, FaEnvelope } from "react-icons/fa";
+import { FaEnvelope } from "react-icons/fa";
 import Heading from "../atoms/Heading";
 
 function Contacts() {
