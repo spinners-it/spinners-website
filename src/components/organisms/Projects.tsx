@@ -49,7 +49,7 @@ function Projects({ type }: ProjectsProps) {
       title: "La piattaforma ideale per la gestione delle cartelle cliniche.",
       description:
         "Con Remedium, le strutture sanitarie possono gestire facilmente i dati dei pazienti, migliorare la sicurezza delle informazioni e ottimizzare i flussi di lavoro.",
-        src: [""],
+        src: ["./assets/mrm.jpg", "./assets/mrm.jpg"],
         link: "https://federico-arona.github.io/smartmed/"
     },
     {
