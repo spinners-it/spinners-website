@@ -19,16 +19,6 @@ function Projects({ type }: ProjectsProps) {
         link: "https://www.selectic.tech/"
     },
     {
-      id: 2,
-      year: "2023",
-      name: "RentalPro",
-      title: "Un'azienda leader nel settore degli affitti brevi.",
-      description:
-        "Abbiamo creato una piattaforma su misura che consente ai loro affiliati di gestire facilmente contratti e fatturazione per le proprietà gestite, semplificando l'amministrazione e migliorando l'efficienza operativa.",
-        src: ["./assets/logo-rentalpro.png"],
-        link: "https://www.rentalprogroup.com/"
-    },
-    {
       id: 3,
       year: "2024",
       name: "Dulalà App",
